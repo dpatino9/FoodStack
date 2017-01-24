@@ -16,7 +16,7 @@ var UserSchema = new Schema({
 
   },
 
-  recepies: {
+  recipes: {
     type: Array,
     default: []    
   }
