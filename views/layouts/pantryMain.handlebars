@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Food Cache</title>
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+ <!-- CSS -->
+ <link rel="stylesheet" type="text/css" href="/assets/css/pantryStyle.css">
+ <!-- ANIMATE.CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js">
+ <!-- FONT -->
+<link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+ <!-- FONT AWESOME-->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<nav class="navStyle">
+	<div class="nav-wrapper">
+		<div class="left"><a href="#" class="brand-logo"><i class="fa fa-cutlery right" aria-hidden="true"></i>MyFoodCache</a></div>
+		<ul id="nav-mobile" class="right hide-on-med-and-down">
+		<li class="light-green darken-3"><a id="modalIntructions" href="#modalIntructions">How does it work?</a></li>
+		<li class="purple darken-3 button-collapse" data-activates="slide-out"><a href="#"  >My saved recipes</a></li>
+		<li class="deep-orange darken-3"><a href="/logout">Sign out</a></li>
+		</ul>
+	</div>
+	{{!-- instructions modadl --}}
+	<div id="modalIntructions" class="modal main-modal">
+		<div class="modal-content instructions-format">
+			<h2>Welcome to MyFoodCache!</h2>
+			All you need to do is enter the ingredients you have in  your pantry and  click submit then BOOM! Recipes will be generated based on which ingredients you entered so you can get to cooking!
+			We'll tell you any ingredients you will need to buy for each recipe and you can also save your favorite recipes for next time, Enjoy!
+		</div>
+	</div> {{!-- end modal --}}
+
+	{{!-- favorite recipes --}}
+  <ul id="slide-out" class="side-nav">
+  	<h2>My Favorites <i class="fa fa-heart red-text" aria-hidden="true"></i></h2>
+  	{{!-- dynamically add favorite recipes here --}}
+    <li><a href="#!">Chicken and Broccoli Alfredo</a></li>
+  </ul>
+</nav>
+	{{{body}}}
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js">
+</script>
+<!-- Javascript -->
+<script type="text/javascript" src="/assets/js/app.js"></script>
+</body>
+</html>

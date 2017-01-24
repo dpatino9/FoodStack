@@ -1,0 +1,113 @@
+body{
+	background-color: #000;
+	color: #FFF;
+    background-image: url(../images/pantryBG.jpg);
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 450px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+}
+
+.navStyle{
+
+	background:rgba(0,0,0, 0.8);
+}
+
+nav .brand-logo {
+    padding-left: 18px;
+}
+
+.main-modal{
+	margin-top: 100px;
+    padding: 25px;
+    border-radius: 10px;
+    background: rgba(255,255,255, 0.8);
+    color: #212121;
+    line-height: 1.5;
+}
+
+.main-modal h2{
+    font-size: 35px;
+    color: #b5003a;
+    font-weight: bold;
+}
+
+/*PANTRY CONTENT*/
+
+.pantry-content{
+	border-radius: 3px;
+    background: rgba(0,0,0, 0.92);
+    color: #FFF;	
+    min-height: 450px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pantry-content-h1{
+    font-size: 45px;
+    color: #FFF;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+hr{
+    border-top: 2px solid #558b2f;
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+.pantry-content h4{
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+}
+
+.enterButton{
+	font-size:30px;
+	border-radius: 50px;
+	color:#FFF;
+}
+
+.btn:hover, .btn-large:hover {
+     background-color: #b5003a; 
+}
+.firebrick{
+	background-color:#b5003a;
+}
+/*SIDE NAV*/
+nav .button-collapse {
+    height: auto;
+    margin: 0;
+}
+
+.side-nav{
+
+    background: rgba(0,0,0, 0.9);
+    color: #FFF;
+
+}
+
+.side-nav li:hover{
+	background: rgba(100,26,146, 0.8);
+
+}
+.side-nav a{
+	color: #FFF;
+	font-size: 16px;
+}
+
+.red-text{
+	color:#FF0;
+}
+
+.side-nav h2 {
+    font-size: 34px;
+    margin-top: 18px;
+}
